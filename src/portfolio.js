@@ -96,7 +96,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "The University of Melbourne",
-      logo: require("./assets/images/uomLogo.jpeg"),
+      logo: require("./assets/images/uomLogo.png"),
       subHeader: "PhD in Electrical and Electronic Engineering",
       duration: "July 2019 - March 2023 (anticipated)",
       desc: "Conducted research into machine learning for wireless network security",
@@ -107,7 +107,7 @@ const educationInfo = {
     },
     {
       schoolName: "The University of Canterbury",
-      logo: require("./assets/images/ucLogo.jpeg"),
+      logo: require("./assets/images/ucLogo.png"),
       subHeader: "Bachelor of Engineering (Hons) in Computer Engineering",
       duration: "January 2015 - December 2018",
       desc: "Top student in the program. Took courses about algorithms and data structures, circuit design, operating systems, and networks.",
@@ -129,11 +129,11 @@ const techStack = {
     },
     {
       Stack: "System integration",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Sense of humour",
-      progressPercentage: "80%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -147,7 +147,7 @@ const workExperiences = {
     {
       role: "Volunteer Software Developer",
       company: "Melbourne Space Program",
-      companylogo: require("./assets/images/mspLogo.jpeg"),
+      companylogo: require("./assets/images/mspLogo.png"),
       date: "April 2020 – April 2022",
       desc: "Autonomous rover",
       descBullets: [
@@ -158,7 +158,7 @@ const workExperiences = {
     {
       role: "Research Intern",
       company: "University of Auckland",
-      companylogo: require("./assets/images/uoaLogo.jpeg"),
+      companylogo: require("./assets/images/uoaLogo.png"),
       date: "Nov 2018 – Feb 2019",
       desc: "Member of the Precision Timing Research Group",
       descBullets: [
@@ -251,7 +251,7 @@ const achievementSection = {
       title: "UC Computer Engineering Ambassador",
       subtitle:
         "Exemplar student representing Computer Engineering and the options it brings.",
-      image: require("./assets/images/ucLogoBW.jpeg"),
+      image: require("./assets/images/ucLogoBW.png"),
       footerLink: [
         {
           name: "Profile",
