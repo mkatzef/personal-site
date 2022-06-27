@@ -45,12 +45,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "...Get hands-on experience with languages and tools to solve problems",
+  subTitle: "Gain hands-on experience with languages and tools to solve problems",
   skills: [
     "⚡ Data analysis",
-    "⚡ Machine learning",
-    "⚡ Circuit design",
-    "⚡ 3D printing"
+    "⚡ Hardware design",
+    "⚡ Software design",
+    "⚡ Connecting the above!"
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -58,32 +58,68 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "git",
-      fontAwesomeClassname: "fab fa-git"
+      skillName: "Arduino",
+      fontClassname: "devicon-arduino-plain"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Bash",
+      fontClassname: "devicon-bash-plain"
+    },
+    {
+      skillName: "C",
+      fontClassname: "devicon-c-plain"
+    },
+    {
+      skillName: "C++",
+      fontClassname: "devicon-cplusplus-plain"
+    },
+    {
+      skillName: "C#",
+      fontClassname: "devicon-csharp-plain"
+    },
+    {
+      skillName: "MATLAB",
+      fontClassname: "devicon-matlab-plain"
     },
     {
       skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      fontClassname: "devicon-nodejs-plain"
     },
     {
       skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      fontClassname: "devicon-python-plain"
+    },
+    {
+      skillName: "aws",
+      fontClassname: "devicon-amazonwebservices-original"
+    },
+    {
+      skillName: "android",
+      fontClassname: "devicon-android-plain"
     },
     {
       skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      fontClassname: "devicon-docker-plain"
+    },
+    {
+      skillName: "Git",
+      fontClassname: "devicon-git-plain"
+    },
+    {
+      skillName: "Jenkins",
+      fontClassname: "devicon-jenkins-plain"
+    },
+    {
+      skillName: "MySQL",
+      fontClassname: "devicon-mysql-plain"
+    },
+    {
+      skillName: "OpenCV",
+      fontClassname: "devicon-opencv-plain"
+    },
+    {
+      skillName: "Tensorflow",
+      fontClassname: "devicon-tensorflow-original"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -132,8 +168,8 @@ const techStack = {
       progressPercentage: "60%"
     },
     {
-      Stack: "Sense of humour",
-      progressPercentage: "70%"
+      Stack: "Testing",
+      progressPercentage: "45%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
