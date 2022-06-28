@@ -202,7 +202,7 @@ const workExperiences = {
       role: "Intern Software Developer",
       company: "Verizon Connect",
       companylogo: require("./assets/images/vcLogo.png"),
-      date: "Nov – Feb 2017 & 2018",
+      date: "Nov – Feb 2016 & 2017",
       desc: "Two 3-month internships with the Road Network Routing Team",
       descBullets: [
         "Implemented a tool to estimate the widths of roads from GPS data",

@@ -4,7 +4,7 @@
   display: flex;
   width: 100%;
   overflow: hidden;
-  padding: 10px 10px;
+  padding: 0px 0px;
 }
 
 .skills-text-div {
@@ -13,11 +13,12 @@
 
 .skills-main-div > * {
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .skills-image-div {
   max-height: 600px;
+  padding-top: 15px
 }
 
 .skills-image-div > img {
