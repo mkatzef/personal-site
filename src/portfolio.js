@@ -9,7 +9,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -160,11 +160,11 @@ const techStack = {
     },
     {
       Stack: "System integration",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     },
     {
       Stack: "Testing",
-      progressPercentage: "45%"
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -222,15 +222,6 @@ const openSource = {
 };
 
 
-// Some big projects you have worked on
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "todo",
-  projects: [
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
 
 // Achievement Section
 // Include certificates, talks etc
@@ -268,37 +259,6 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-
-// Blogs Section
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-
-// Talks Sections
-const talkSection = {
-  title: "TALKS",
-  subtitle: "",
-  talks: [],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "none",
-  podcast: [
-    "none"
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
 const contactInfo = {
   title: emoji("Contact Me"),
   subtitle:
@@ -307,11 +267,6 @@ const contactInfo = {
   open_for_ops: "Yes"
 };
 
-// Twitter Section
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
-};
 
 export {
   illustration,
@@ -323,11 +278,6 @@ export {
   techStack,
   workExperiences,
   openSource,
-  bigProjects,
   achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
   contactInfo,
-  twitterDetails
 };

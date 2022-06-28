@@ -9,7 +9,7 @@ export default function SplashScreen() {
   return (
     <div className={isDark ? "dark-mode splash-container" : "splash-container"}>
       <div className="splash-animation-container">
-        <DisplayLottie animationData={splashScreen.animation} />
+        <DisplayLottie animationData={splashScreen.animation} height="200px" />
       </div>
       <div className="splash-title-container">
         <span className="grey-color"> &lt;</span>
