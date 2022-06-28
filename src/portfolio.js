@@ -6,7 +6,6 @@ import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
-
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
@@ -14,7 +13,6 @@ const splashScreen = {
 };
 
 // Summary And Greeting Section
-
 const illustration = {
   animated: true // Set to false to use static SVG
 };
@@ -22,16 +20,13 @@ const illustration = {
 const greeting = {
   username: "Marc Katzef",
   title: "Hi, I'm Marc",
-  subTitle: emoji(
-    "This site is currently under development!"
-  ),
+  subTitle: "I'm an engineering PhD student with a passion for learning new systems, who's actively looking for work that'll keep me on my toes",
   resumeLink:
     "https://drive.google.com/file/d/115nNca-89V6cTslu52entyYnUjTHvjCF/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
-
 const socialMediaLinks = {
   github: "https://github.com/mkatzef",
   linkedin: "https://www.linkedin.com/in/marc-katzef/",
@@ -55,7 +50,6 @@ const skillsSection = {
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
       skillName: "Arduino",
@@ -126,7 +120,6 @@ https://fontawesome.com/icons?d=gallery */
 };
 
 // Education Section
-
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
@@ -135,27 +128,28 @@ const educationInfo = {
       logo: require("./assets/images/uomLogo.png"),
       subHeader: "PhD in Electrical and Electronic Engineering",
       duration: "July 2019 - March 2023 (anticipated)",
-      desc: "Conducted research into machine learning for wireless network security",
+      desc: "Researching distributed machine learning for wireless network security",
       descBullets: [
-        "Software-Defined Radios",
-        "Game Theory"
+        "Analying Software-Defined Radio readings",
+        "Designing new anomaly detection schemes",
+        "Weighing up risks/benefits using Game Theory"
       ]
     },
     {
       schoolName: "The University of Canterbury",
       logo: require("./assets/images/ucLogo.png"),
-      subHeader: "Bachelor of Engineering (Hons) in Computer Engineering",
+      subHeader: "Bachelor of Engineering in Computer Engineering",
       duration: "January 2015 - December 2018",
-      desc: "Top student in the program. Took courses about algorithms and data structures, circuit design, operating systems, and networks.",
+      desc: "Completed with First Class Honours and a minor in Communications and Network Engineering",
       descBullets: [
-        "Minor in network engineering"
+          "Top student in the program",
+          "Coursework included: algorithms and data structures, circuit design, operating systems"
       ]
     }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
@@ -176,7 +170,6 @@ const techStack = {
 };
 
 // Work experience section
-
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
@@ -185,9 +178,10 @@ const workExperiences = {
       company: "Melbourne Space Program",
       companylogo: require("./assets/images/mspLogo.png"),
       date: "April 2020 – April 2022",
-      desc: "Autonomous rover",
+      desc: "Member of the AI and Robotics Team",
       descBullets: [
-        "ROS"
+        "Worked on an autonomous rover joint-project with Monash Nova Rover",
+        "Led the development of modules for 2D mapping, localisation, and visualisation"
       ],
       color: [5, 21, 91]
     },
@@ -196,9 +190,10 @@ const workExperiences = {
       company: "University of Auckland",
       companylogo: require("./assets/images/uoaLogo.png"),
       date: "Nov 2018 – Feb 2019",
-      desc: "Member of the Precision Timing Research Group",
+      desc: "Member of the Precision Timed Research Group",
       descBullets: [
-        "ANNs on FPGAs"
+        "Wrote a tool to convert Keras neural networks (NNs) to C code",
+        "Analyzed worst-case execution time for NNs on an FPGA"
       ],
       color: null
     },
@@ -206,16 +201,12 @@ const workExperiences = {
       role: "Intern Software Developer",
       company: "Verizon Connect",
       companylogo: require("./assets/images/vcLogo.png"),
-      date: "Nov 2017 – Feb 2018",
-      desc: "They brought me back!",
-      color: [179, 59, 51]
-    },
-    {
-      role: "Intern Software Developer",
-      company: "Verizon Connect",
-      companylogo: require("./assets/images/vcLogo.png"),
-      date: "Nov 2016 – Feb 2017",
-      desc: "Road widths",
+      date: "Nov – Feb 2017 & 2018",
+      desc: "Two 3-month internships with the Road Network Routing Team",
+      descBullets: [
+        "Implemented a tool to estimate the widths of roads from GPS data",
+        "Implemented a visualisation tool for routing algorithms (C++, nodejs, mapbox)"
+      ],
       color: [179, 59, 51]
     }
   ]
@@ -229,42 +220,19 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
 
+// Some big projects you have worked on
 const bigProjects = {
   title: "Big Projects",
   subtitle: "todo",
   projects: [
-    {
-      image: "", //require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: "", //require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
 
+
 // Achievement Section
 // Include certificates, talks etc
-
 const achievementSection = {
   title: emoji("Achievements and Awards 🏆 "),
   subtitle:
@@ -274,7 +242,7 @@ const achievementSection = {
     {
       title: "Orbital Transports Contest Winner",
       subtitle:
-        "Winning project proposal for the SmallSat Idea-to-Space Launch Contest",
+        "Winning project proposal for the SmallSat Idea-to-Space Launch Contest - launching a cube satellite early 2023!",
       image: require("./assets/images/otLogo.png"),
       footerLink: [
         {
@@ -284,9 +252,9 @@ const achievementSection = {
       ]
     },
     {
-      title: "UC Computer Engineering Ambassador",
+      title: "UC Computer Engineering Spokesperson",
       subtitle:
-        "Exemplar student representing Computer Engineering and the options it brings.",
+        "Selected for a write-up advertising Computer Engineering to propspective students.",
       image: require("./assets/images/ucLogoBW.png"),
       footerLink: [
         {
@@ -299,56 +267,31 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
 
+// Blogs Section
 const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@MarcKatzef/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
 
-// Talks Sections
 
+// Talks Sections
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/MarcKatzef-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
+  subtitle: "",
+  talks: [],
   display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
-
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "none",
-
-  // Please Provide with Your Podcast embeded Link
   podcast: [
     "none"
   ],
@@ -359,13 +302,11 @@ const contactInfo = {
   title: emoji("Contact Me"),
   subtitle:
     "Actively looking for new projects to dive into after my research",
-  number: "+92-0000000000",
   email_address: "marckatzef@gmail.com",
   open_for_ops: "Yes"
 };
 
 // Twitter Section
-
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
