@@ -20,6 +20,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.scholar ? (
+        <a
+          href={socialMediaLinks.scholar}
+          className="icon-button scholar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i><img src={require("../../assets/images/scholar.png")} style={{height:"20.8px", margin:"-2px"}} alt="GS"></img></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.linkedin ? (
         <a
           href={socialMediaLinks.linkedin}
