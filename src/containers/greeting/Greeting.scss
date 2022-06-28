@@ -27,7 +27,7 @@
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 .button-greeting-div {
   display: flex;
@@ -43,6 +43,10 @@
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
+}
+
+.greeting-image-div {
+  max-height: 500px;
 }
 
 .greeting-image-div > img {
