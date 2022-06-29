@@ -34,6 +34,7 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/z4qqq",
   instagram: "https://www.instagram.com/mkatzef",
   scholar: "https://scholar.google.com/citations?user=hZqLb8UAAAAJ&hl=en",
+  thingiverse: "https://www.thingiverse.com/mkatzef",
   display: true // Set true to display this section, defaults to false
 };
 

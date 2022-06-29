@@ -45,6 +45,7 @@ export default function Greeting() {
                   <Button
                     text="My resume"
                     newTab={true}
+                    target="_blank"
                     href={Pdf}
                   />
                 )}

@@ -68,6 +68,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.thingiverse ? (
+        <a
+          href={socialMediaLinks.thingiverse}
+          className="icon-button thingiverse"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i><img src={require("../../assets/images/thingiverse.png")} style={{height:"32px", margin:"-8px"}} alt="thingiverse"></img></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.facebook ? (
         <a
           href={socialMediaLinks.facebook}
