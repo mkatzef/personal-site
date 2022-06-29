@@ -6,6 +6,7 @@ import landingPerson from "../../assets/lottie/robortHi";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
+import Pdf from '../../assets/media/MK_Resume.pdf';
 
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
@@ -43,8 +44,8 @@ export default function Greeting() {
                 {greeting.resumeLink && (
                   <Button
                     text="My resume"
-                    newTab={false}
-                    href="/MK_resume.pdf"
+                    newTab={true}
+                    href={Pdf}
                   />
                 )}
               </div>
