@@ -46,6 +46,7 @@ export default function Greeting() {
                     text="My resume"
                     newTab={true}
                     target="_blank"
+                    rel="noopener noreferrer"
                     href={Pdf}
                   />
                 )}
