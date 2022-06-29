@@ -44,7 +44,7 @@ export default function Greeting() {
                   <Button
                     text="My resume"
                     newTab={true}
-                    href={greeting.resumeLink}
+                    href="/MK_resume.pdf"
                   />
                 )}
               </div>
