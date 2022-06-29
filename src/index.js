@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import "./App.scss";
@@ -8,11 +7,9 @@ import Main from "./containers/Main";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<div><Main /></div>} />
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <Main />
+    </div>
   );
 }
 
