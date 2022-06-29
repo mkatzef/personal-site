@@ -31,7 +31,6 @@ const socialMediaLinks = {
   github: "https://github.com/mkatzef",
   linkedin: "https://www.linkedin.com/in/marc-katzef/",
   gmail: "marckatzef@gmail.com",
-  facebook: "https://www.facebook.com/z4qqq",
   instagram: "https://www.instagram.com/mkatzef",
   scholar: "https://scholar.google.com/citations?user=hZqLb8UAAAAJ&hl=en",
   thingiverse: "https://www.thingiverse.com/mkatzef",
