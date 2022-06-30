@@ -55,7 +55,7 @@ export default function Skills() {
                         : "subTitle skills-text"
                     }
                   >
-                    {skills}
+                    {"⚡️"} <b>{skills[0]}</b>{skills[1] ? ": " + skills[1] : ""}
                   </p>
                 );
               })}

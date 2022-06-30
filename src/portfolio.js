@@ -38,19 +38,16 @@ const socialMediaLinks = {
 };
 
 // Skills Section
-
 const skillsSection = {
   title: "What I do",
   subTitle: "Gain hands-on experience with languages and tools to solve problems",
   skills: [
-    "⚡ Data analysis",
-    "⚡ Hardware design",
-    "⚡ Software design",
-    "⚡ Connecting the above!"
+    ["Data analysis", "machine learning, optimisation"],
+    ["Hardware design", "circuits, CAD"],
+    ["Software design", "apps, algorithms, testing"],
+    ["Connecting the above!", ""]
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Arduino",
