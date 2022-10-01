@@ -8,6 +8,7 @@ import Projects from "./projects/Projects";
 import Achievement from "./achievement/Achievement";
 import Footer from "../components/footer/Footer";
 import Education from "./education/Education";
+import Research from "./research/Research";
 import ScrollToTopButton from "./topbutton/Top";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
@@ -50,6 +51,7 @@ const Main = () => {
             <Greeting />
             <Skills />
             <StackProgress />
+            <Research />
             <Education />
             <WorkExperience />
             <Projects />

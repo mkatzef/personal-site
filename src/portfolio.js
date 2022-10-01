@@ -7,7 +7,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 
 // Splash Screen
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: splashAnimation,
   duration: 900 // Set animation duration as per your animation
 };
@@ -115,6 +115,41 @@ const skillsSection = {
     }
   ],
   display: true // Set false to hide this section, defaults to true
+};
+
+// Research Section
+const researchInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  publications: [
+    {
+      title: "Generative Adversarial Networks for Anomaly Detection on Decentralised Data",
+      authors: "M Katzef, AC Cullen, T Alpcan, C Leckie",
+      venue: "Annual Reviews in Control",
+      doi: "https://doi.org/10.1016/j.arcontrol.2021.10.002",
+      year: "2021"
+    },
+    {
+      title: "Privacy-Preserving Collaborative SDR Networks for Anomaly Detection",
+      authors: "M Katzef, AC Cullen, T Alpcan, C Leckie, J Kopacz",
+      venue: "ICC 2021-IEEE International Conference on Communications, 1-6",
+      doi: "https://doi.org/10.1109/ICC42927.2021.9500807",
+      year: "2021"
+    },
+    {
+      title: "Distributed Generative Adversarial Networks for Anomaly Detection",
+      authors: "M Katzef, AC Cullen, T Alpcan, C Leckie, J Kopacz",
+      venue: "International Conference on Decision and Game Theory for Security, 3-22",
+      doi: "https://doi.org/10.1007/978-3-030-64793-3_1",
+      year: "2020"
+    },
+    {
+      title: "Designing Neural Networks for Real-Time Systems",
+      authors: "H Pearce, X Yang, PS Roop, M Katzef, TB Strøm",
+      venue: "IEEE Embedded Systems Letters 13 (3), 94-97",
+      doi: "https://doi.org/10.1109/LES.2020.3009910",
+      year: "2020"
+    }
+  ]
 };
 
 // Education Section
@@ -271,6 +306,7 @@ export {
   socialMediaLinks,
   splashScreen,
   skillsSection,
+  researchInfo,
   educationInfo,
   techStack,
   workExperiences,
