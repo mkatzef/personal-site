@@ -13,7 +13,7 @@ export default function ResearchCard({publication, last}) {
       <Fade left duration={1000}>
         <div className="research-card">
           <div className="research-card-right">
-            <a href={publication.doi}>
+            <a href={publication.doi} className="publication-link">
               <h5 className="research-text-school">{publication.title}</h5>
             </a>
 

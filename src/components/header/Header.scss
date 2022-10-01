@@ -159,7 +159,7 @@
 
 /* 48em = 768px */
 
-@media (min-width: 55em) {
+@media (min-width: 880px) {
   .header li {
     float: left;
   }
@@ -175,7 +175,7 @@
     display: none;
   }
 }
-@media (max-width: 960px) and (min-width: 768px) {
+@media (max-width: 1200px) and (min-width: 880px) {
   .header {
     font-size: 12px;
   }
