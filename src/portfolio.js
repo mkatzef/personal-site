@@ -20,7 +20,7 @@ const illustration = {
 const greeting = {
   username: "Marc Katzef",
   title: "Hi, I'm Marc",
-  subTitle: "I'm an engineering PhD student with a passion for learning new systems, who's actively looking for work that'll keep me on my toes",
+  subTitle: "I'm an engineering PhD student with a passion for learning new systems, who's actively looking for work that builds on my research and project experience",
   resumeLink:
     "https://drive.google.com/file/d/115nNca-89V6cTslu52entyYnUjTHvjCF/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -40,12 +40,12 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "What I do",
-  subTitle: "Gain hands-on experience with languages and tools to solve problems",
+  subTitle: "My studies and work experience have taught me a wide range of tools to solve problems",
   skills: [
     ["Data analysis", "machine learning, optimisation"],
     ["Hardware design", "circuits, CAD"],
     ["Software design", "apps, algorithms, testing"],
-    ["Connecting the above!", ""]
+    ["My passion", "connecting the above!"]
   ],
 
   softwareSkills: [
@@ -54,20 +54,12 @@ const skillsSection = {
       fontClassname: "devicon-arduino-plain"
     },
     {
-      skillName: "Bash",
-      fontClassname: "devicon-bash-plain"
-    },
-    {
       skillName: "C",
       fontClassname: "devicon-c-plain"
     },
     {
       skillName: "C++",
       fontClassname: "devicon-cplusplus-plain"
-    },
-    {
-      skillName: "C#",
-      fontClassname: "devicon-csharp-plain"
     },
     {
       skillName: "MATLAB",
@@ -86,20 +78,12 @@ const skillsSection = {
       fontClassname: "devicon-amazonwebservices-original"
     },
     {
-      skillName: "android",
-      fontClassname: "devicon-android-plain"
-    },
-    {
       skillName: "docker",
       fontClassname: "devicon-docker-plain"
     },
     {
       skillName: "Git",
       fontClassname: "devicon-git-plain"
-    },
-    {
-      skillName: "Jenkins",
-      fontClassname: "devicon-jenkins-plain"
     },
     {
       skillName: "MySQL",
@@ -160,22 +144,22 @@ const educationInfo = {
       schoolName: "The University of Melbourne",
       logo: require("./assets/images/uomLogo.png"),
       subHeader: "PhD in Electrical and Electronic Engineering",
-      duration: "July 2019 - March 2023 (anticipated)",
+      duration: "Jul 2019 - Feb 2023 (anticipated)",
       desc: "Researching distributed machine learning for wireless network security",
       descBullets: [
-        "Analying Software-Defined Radio readings",
+        "Analysing Software-Defined Radio readings",
         "Designing new anomaly detection schemes",
-        "Weighing up risks/benefits using Game Theory"
+        "Implementing new methods for distributed machine learning"
       ]
     },
     {
       schoolName: "The University of Canterbury",
       logo: require("./assets/images/ucLogo.png"),
       subHeader: "Bachelor of Engineering in Computer Engineering",
-      duration: "January 2015 - December 2018",
+      duration: "Jan 2015 - Dec 2018",
       desc: "Completed with First Class Honours and a minor in Communications and Network Engineering",
       descBullets: [
-          "Top student in the program",
+          "Top student in the program (GPA 8.66/9.0)",
           "Coursework included: algorithms and data structures, circuit design, operating systems"
       ]
     }
@@ -210,7 +194,7 @@ const workExperiences = {
       role: "Volunteer Software Developer",
       company: "Melbourne Space Program",
       companylogo: require("./assets/images/mspLogo.png"),
-      date: "April 2020 – April 2022",
+      date: "Apr 2020 – Feb 2022",
       desc: "Member of the AI and Robotics Team",
       descBullets: [
         "Worked on an autonomous rover joint-project with Monash Nova Rover",
@@ -234,11 +218,23 @@ const workExperiences = {
       role: "Intern Software Developer",
       company: "Verizon Connect",
       companylogo: require("./assets/images/vcLogo.png"),
-      date: "Nov – Feb 2016 & 2017",
-      desc: "Two 3-month internships with the Road Network Routing Team",
+      date: "Nov 2017 – Feb 2018",
+      desc: "A second internship with the Road Network Routing Team",
+      descBullets: [
+        "Implemented a visualisation tool for routing algorithms",
+        "Written in C++, Node.js, and Mapbox GL JS"
+      ],
+      color: [179, 59, 51]
+    },
+    {
+      role: "Intern Software Developer",
+      company: "Verizon Connect",
+      companylogo: require("./assets/images/vcLogo.png"),
+      date: "Nov 2016 – Feb 2017",
+      desc: "An internship with the Road Network Routing Team",
       descBullets: [
         "Implemented a tool to estimate the widths of roads from GPS data",
-        "Implemented a visualisation tool for routing algorithms (C++, nodejs, mapbox)"
+        "Written in python, C#, and CUDA C"
       ],
       color: [179, 59, 51]
     }
