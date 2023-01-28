@@ -254,7 +254,7 @@ const openSource = {
 // Achievement Section
 // Include certificates, talks etc
 const achievementSection = {
-  title: emoji("Achievements and Awards 🏆 "),
+  title: "Achievements and Awards 🏆",
   subtitle:
     "Me in the news!",
 

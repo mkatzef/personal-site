@@ -32,6 +32,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.osf ? (
+        <a
+          href={socialMediaLinks.osf}
+          className="icon-button osf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i><img src={require("../../assets/images/osf.png")} style={{height:"28px", margin:"0px 3px -7px 4px"}} alt="OSF"></img></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.linkedin ? (
         <a
           href={socialMediaLinks.linkedin}
@@ -75,7 +87,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i><img src={require("../../assets/images/thingiverse.png")} style={{height:"32px", margin:"-8px"}} alt="thingiverse"></img></i>
+          <i><img src={require("../../assets/images/thingiverse.png")} style={{height:"32px", margin:"-9px"}} alt="thingiverse"></img></i>
           <span></span>
         </a>
       ) : null}

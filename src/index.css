@@ -34,3 +34,7 @@ body {
     line-height: normal;
   }
 }
+
+span {
+  color: green;
+}
