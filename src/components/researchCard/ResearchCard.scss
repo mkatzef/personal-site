@@ -36,10 +36,8 @@
   margin: 0;
   font-size: 28px;
   font-weight: 700;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  height: 27px;
+  height:auto !important;
+  line-height: 1.2;
 }
 
 .research-roundedimg {
@@ -81,7 +79,7 @@
 }
 
 .publication-link {
-  color: $titleColor;
+  color: $buttonColor;
 }
 
 /* Media Query */
