@@ -7,7 +7,7 @@
 }
 
 .research-card:hover + .research-card-border {
-  border-color: $researchCardBorder;
+  border-color: $buttonColor;
   width: 100%;
   -webkit-transition: width 0.6s ease-in-out;
   -moz-transition: width 0.6s ease-in-out;
@@ -18,7 +18,7 @@
 .research-card-border {
   height: 30px;
   width: 80%;
-  border-top: 2px solid $buttonColor;
+  border-top: 2px solid $lightBorder1;
   margin-top: 20px;
   margin-bottom: 0px;
   -webkit-transition: width 0.6s ease-in-out;
