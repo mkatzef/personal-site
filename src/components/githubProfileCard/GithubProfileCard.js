@@ -41,11 +41,6 @@ export default function GithubProfileCard({prof}) {
                 </span>
               </div>
             )}
-            <div className="opp-div">
-              <span className="desc-prof">
-                Open for opportunities: {contactInfo.open_for_ops}
-              </span>
-            </div>
             <SocialMedia />
           </div>
           <div className="image-content-profile">
