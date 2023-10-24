@@ -39,12 +39,12 @@
 
 .experience-blurred_div {
   position: absolute;
-  background: $experienceCardBlurredDivLG;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
+  background: rgba(0,0,0,0.3);
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
   height: 11rem;
   top: 0;
   left: 0;

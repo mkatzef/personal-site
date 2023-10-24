@@ -38,27 +38,36 @@ export default function Greeting() {
                 {greeting.subTitle}
               </p>
               <SocialMedia />
-              <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
-                {greeting.resumeLink && (
-                  <Button
-                    text="My resume"
-                    newTab={true}
-                    href="https://drive.google.com/file/d/115nNca-89V6cTslu52entyYnUjTHvjCF/view?usp=sharing"
-                  />
-                )}
-              </div>
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} loop="false" />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
-            )}
+            <table className="resume-button-table">
+              <tr>
+              <td colSpan="100%">
+                <video autoPlay loop className="rover-vid">
+                  <source src={require("../../assets/images/rover.webm")} type="video/webm" />
+                </video>
+              </td>
+              </tr>
+              <tr>
+              <td width="50%">
+              <Button
+                text="Resume"
+                useful={true}
+                newTab={true}
+                href="https://drive.google.com/file/d/115nNca-89V6cTslu52entyYnUjTHvjCF/view?usp=sharing"
+              />
+              </td>
+              <td width="50%" align="right">
+              <Button
+                text="PhD Thesis"
+                useful={true}
+                newTab={true}
+                href="http://hdl.handle.net/11343/337334"
+              />
+              </td>
+              </tr>
+            </table>
           </div>
         </div>
       </div>

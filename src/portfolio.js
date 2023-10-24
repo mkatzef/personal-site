@@ -20,7 +20,7 @@ const illustration = {
 const greeting = {
   username: "Marc Katzef",
   title: "Hi, I'm Marc",
-  subTitle: "I'm an engineering PhD student with a passion for learning new systems, who's actively looking for work that builds on my research and project experience",
+  subTitle: "I'm an electrical engineer with a passion for learning new tools and bringing all sorts of technologies together",
   resumeLink:
     "https://drive.google.com/file/d/115nNca-89V6cTslu52entyYnUjTHvjCF/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -40,7 +40,7 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "What I do",
-  subTitle: "My studies and work experience have taught me a wide range of tools to solve problems",
+  subTitle: "My studies and work experience have given me hands-on experience with modern tech including:",
   skills: [
     ["Data analysis", "machine learning, optimisation"],
     ["Hardware design", "circuits, CAD"],
@@ -54,10 +54,6 @@ const skillsSection = {
       fontClassname: "devicon-arduino-plain"
     },
     {
-      skillName: "C",
-      fontClassname: "devicon-c-plain"
-    },
-    {
       skillName: "C++",
       fontClassname: "devicon-cplusplus-plain"
     },
@@ -68,6 +64,10 @@ const skillsSection = {
     {
       skillName: "nodejs",
       fontClassname: "devicon-nodejs-plain"
+    },
+    {
+      skillName: "PHP",
+      fontClassname: "devicon-php-plain"
     },
     {
       skillName: "python",
@@ -86,8 +86,8 @@ const skillsSection = {
       fontClassname: "devicon-git-plain"
     },
     {
-      skillName: "MySQL",
-      fontClassname: "devicon-mysql-plain"
+      skillName: "React",
+      fontClassname: "devicon-react-plain"
     },
     {
       skillName: "OpenCV",
@@ -106,29 +106,43 @@ const researchInfo = {
   display: true, // Set false to hide this section, defaults to true
   publications: [
     {
+      title: "Robust Wireless Network Anomaly Detection with Collaborative Adversarial Autoencoders",
+      authors: "M. Katzef, A. C. Cullen, T. Alpcan, C. Leckie",
+      venue: "ICC 2023-IEEE International Conference on Communications, 1-6",
+      doi: "",
+      year: "2023"
+    },
+    {
+      title: "Wireless Network Simulation to Create Machine Learning Benchmark Data",
+      authors: "M. Katzef, A. C. Cullen, T. Alpcan, C. Leckie, J. Kopacz",
+      venue: "GLOBECOM 2022-IEEE Global Communications Conference",
+      doi: "https://doi.org/10.1109/GLOBECOM48099.2022.10000685",
+      year: "2022"
+    },
+    {
       title: "Generative Adversarial Networks for Anomaly Detection on Decentralised Data",
-      authors: "M Katzef, AC Cullen, T Alpcan, C Leckie",
+      authors: "M. Katzef, A. C. Cullen, T. Alpcan, C. Leckie",
       venue: "Annual Reviews in Control",
       doi: "https://doi.org/10.1016/j.arcontrol.2021.10.002",
       year: "2021"
     },
     {
       title: "Privacy-Preserving Collaborative SDR Networks for Anomaly Detection",
-      authors: "M Katzef, AC Cullen, T Alpcan, C Leckie, J Kopacz",
+      authors: "M. Katzef, A. C. Cullen, T. Alpcan, C. Leckie, J. Kopacz",
       venue: "ICC 2021-IEEE International Conference on Communications, 1-6",
       doi: "https://doi.org/10.1109/ICC42927.2021.9500807",
       year: "2021"
     },
     {
       title: "Distributed Generative Adversarial Networks for Anomaly Detection",
-      authors: "M Katzef, AC Cullen, T Alpcan, C Leckie, J Kopacz",
+      authors: "M. Katzef, A. C. Cullen, T. Alpcan, C. Leckie, J. Kopacz",
       venue: "International Conference on Decision and Game Theory for Security, 3-22",
       doi: "https://doi.org/10.1007/978-3-030-64793-3_1",
       year: "2020"
     },
     {
       title: "Designing Neural Networks for Real-Time Systems",
-      authors: "H Pearce, X Yang, PS Roop, M Katzef, TB Strøm",
+      authors: "H. Pearce, X. Yang, P. S. Roop, M. Katzef, T. B. Strøm",
       venue: "IEEE Embedded Systems Letters 13 (3), 94-97",
       doi: "https://doi.org/10.1109/LES.2020.3009910",
       year: "2020"
@@ -144,7 +158,7 @@ const educationInfo = {
       schoolName: "The University of Melbourne",
       logo: require("./assets/images/uomLogo.png"),
       subHeader: "PhD in Electrical and Electronic Engineering",
-      duration: "Jul 2019 - Feb 2023 (anticipated)",
+      duration: "Jul 2019 - Apr 2023",
       desc: "Researching distributed machine learning for wireless network security",
       descBullets: [
         "Analysing Software-Defined Radio readings",
@@ -190,6 +204,30 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Systems Developer",
+      company: "University of New South Wales",
+      companylogo: require("./assets/images/unswLogo.png"),
+      date: "Sep 2023 – Present",
+      desc: "Improving the HRI robotics research facility",
+      descBullets: [
+        "TODO",
+        "TODO"
+      ],
+      color: [251,230,77]
+    },
+    {
+      role: "Software and Electrical Engineer",
+      company: "Industrial Sciences Group",
+      companylogo: require("./assets/images/isgLogo.png"),
+      date: "Mar 2023 – Sep 2023",
+      desc: "Fixed-term projects on space analytics",
+      descBullets: [
+        "TODO",
+        "TODO"
+      ],
+      color: [196,196,196]
+    },
     {
       role: "Volunteer Software Developer",
       company: "Melbourne Space Program",
@@ -290,9 +328,8 @@ const achievementSection = {
 const contactInfo = {
   title: emoji("Contact Me"),
   subtitle:
-    "Actively looking for new projects to dive into after my research",
+    "Feel free to reach out about anything tech :)",
   email_address: "marckatzef@gmail.com",
-  open_for_ops: "Yes"
 };
 
 

@@ -18,6 +18,12 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out 0s;
 }
+
+
+.nonuseless-button {
+  margin: 0 !important;
+}
+
 .main-button:hover {
   background-color: $darkBoxShadow2;
   color: $buttonColor;

@@ -31,12 +31,6 @@
   margin-bottom: 0px;
 }
 
-.button-greeting-div {
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-
 .greeting-text {
   font-size: 70px;
   line-height: 1.1;
@@ -48,15 +42,14 @@
   line-height: 40px;
 }
 
-.greeting-image-div {
-  max-height: 500px;
-  padding-left: 10%;
-  padding-top: 10px;
+.resume-button-table {
+  width: 70%;
+  margin-left:15%;
 }
 
-.greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
+.rover-vid {
+  width:100%;
+  padding-bottom:15px;
 }
 
 .wave-emoji {
@@ -101,8 +94,12 @@
   }
 }
 @media (max-width: 768px) {
-  .button-greeting-div {
-    justify-content: space-around;
+  .resume-button-table {
+    margin-left:20%;
+    width: 60%;
+  }
+  .rover-vid {
+    width: 100%;
   }
   .greeting-text {
     font-size: 30px;
@@ -116,13 +113,17 @@
   .greeting-main {
     display: block;
   }
-  .greeting-image-div {
-    height: 256px;
-  }
 }
 
 @media (max-width: 320px) {
   .main {
     width: auto;
+  }
+  .resume-button-table {
+    margin-left:10%;
+    width: 90%;
+  }
+  .rover-vid {
+    width:60%;
   }
 }
