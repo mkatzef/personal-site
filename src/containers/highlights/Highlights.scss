@@ -29,15 +29,27 @@
   width: 65%;
   overflow: hidden;
 }
-.image-img {
-  min-width: 100%;
-  min-height: 100%;
+.img1 {
+  height: 50%;
+  position: absolute;
+  top: 0px;
+}
+.img2 {
+  height: 50%;
+  position: absolute;
+  bottom: 0px;
 }
 .desc-div {
-  float: right;
-  width: 35%;
+  width: 40%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  padding-left: 15px;
 }
 
+.graph {
+  aspect-ratio: 3/2;
+}
 
 /* Media Query */
 
@@ -80,6 +92,24 @@
 }
 
 @media (max-width: 768px) {
+  .img1 {
+    top: 50%;
+    height: auto;
+    width: 100%;
+  }
+  .img2 {
+    display: none;
+  }
+  .desc-div {
+    width: 100%;
+    position: absolute;
+    left: 10%;
+    top: 0px
+  }
+  .graph {
+    padding-top: 10%;
+    height:50%;
+  }
   .highlights-card-container {
     padding-top: 0px;
   }

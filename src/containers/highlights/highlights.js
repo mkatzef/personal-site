@@ -43,8 +43,8 @@ const Dot = styled.span`
 `;
 const Dots = styled.span`
   text-align: center;
-  margin-left:45%;
-  width:10%;
+  width: 30px;
+  margin-left: 40%;
   z-index: 100;
 `;
 const CarouselUI = ({ position, total, handleClick, children }) => (
@@ -71,57 +71,56 @@ export default function Highlights() {
         <h1 className="highlights-heading">Highlights</h1>
         <div className="highlights-card-container">
           <Carousel defaultWait={3000} maxTurns={1}>
-          <Slide right>
+          <Slide>
             <div className="slide-div">
-              <img height={"50%"} src={require("../../assets/images/walkplot.png")}/>
-              <br/>
-              <img height={"50%"} src={require("../../assets/images/strava.png")}/>
+              <img className="img1" src={require("../../assets/images/walkplot.png")}/>
+              <img className="img2" src={require("../../assets/images/strava.png")}/>
               <div className="desc-div">
                 <h1>Map data</h1>
                 <p>Planning, processing, visualizing, running :)</p>
               </div>
             </div>
           </Slide>
-          <Slide right>
+          <Slide>
             <div className="slide-div">
-              <img height={"50%"} src={require("../../assets/images/astro.png")}/>
-              <br/>
-              <img height={"50%"} src={require("../../assets/images/world-vote.png")}/>
+              <img className="img1" src={require("../../assets/images/world-vote.png")}/>
+              <img className="img2" src={require("../../assets/images/astro.png")}/>
               <div className="desc-div">
                 <h1>Full stack</h1>
                 <p>Serverless, containers, VPCs, CI/CD --- I know all the acronyms! (And wrestled with them too)</p>
               </div>
             </div>
           </Slide>
-          <Slide right>
+          <Slide>
             <div className="slide-div">
-              <img height={"50%"} src={require("../../assets/images/wifi-mapper-map.jpg")}/>
-              <br/>
-              <img height={"50%"} src={require("../../assets/images/wifi-mapper-scanner.jpg")}/>
+              <img className="img1" src={require("../../assets/images/wifi-mapper-map.jpg")}/>
+              <img className="img2" src={require("../../assets/images/wifi-mapper-scanner.jpg")}/>
               <div className="desc-div">
                 <h1>Computer vision/pose estimation</h1>
                 <p>From tracking digger arms to Wi-Fi signals, I've had hands-on experience helping computers navigate our 3D world</p>
               </div>
             </div>
           </Slide>
-          <Slide right>
+          <Slide>
             <div className="slide-div">
-              <iframe width={"50%"} height={"50%"} src="https://www.desmos.com/calculator/2wyvfb2tym?embed" />
-              <br/>
-              <iframe width={"50%"} height={"50%"} src="https://www.desmos.com/calculator/vro1hsq1ou?embed" />
+              <div className="img1 graph">
+                <iframe width={"100%"} height={"100%"} src="https://www.desmos.com/calculator/2wyvfb2tym?embed" />
+              </div>
+              <div className="img2 graph">
+                <iframe width={"100%"} height={"100%"} src="https://www.desmos.com/calculator/vro1hsq1ou?embed" />
+              </div>
               <div className="desc-div">
                 <h1>Math</h1>
                 <p>I can do it</p>
                 <p>Advanced signal processing, linear algebra, stats, and my favourite, numerical optimisation</p>
-                <p>Left: some graphs I made on <a href="http://desmos.com">desmos.com</a></p>
+                <p>Some graphs I made on <a href="http://desmos.com">desmos.com</a></p>
               </div>
             </div>
           </Slide>
-          <Slide right>
+          <Slide>
             <div className="slide-div">
-              <img height={"50%"} src={require("../../assets/images/litho-src.jpg")}/>
-              <br/>
-              <img height={"50%"} src={require("../../assets/images/litho.jpeg")}/>
+              <img className="img1" src={require("../../assets/images/litho.jpeg")}/>
+              <img className="img2" src={require("../../assets/images/litho-src.jpg")}/>
               <div className="desc-div">
                 <h1>Tinkering</h1>
                 <p>For form and function</p>
