@@ -113,20 +113,6 @@ const researchInfo = {
       year: "2023"
     },
     {
-      title: "Wireless Network Simulation to Create Machine Learning Benchmark Data",
-      authors: "M. Katzef, A. C. Cullen, T. Alpcan, C. Leckie, J. Kopacz",
-      venue: "GLOBECOM 2022-IEEE Global Communications Conference",
-      doi: "https://doi.org/10.1109/GLOBECOM48099.2022.10000685",
-      year: "2022"
-    },
-    {
-      title: "Generative Adversarial Networks for Anomaly Detection on Decentralised Data",
-      authors: "M. Katzef, A. C. Cullen, T. Alpcan, C. Leckie",
-      venue: "Annual Reviews in Control",
-      doi: "https://doi.org/10.1016/j.arcontrol.2021.10.002",
-      year: "2021"
-    },
-    {
       title: "Privacy-Preserving Collaborative SDR Networks for Anomaly Detection",
       authors: "M. Katzef, A. C. Cullen, T. Alpcan, C. Leckie, J. Kopacz",
       venue: "ICC 2021-IEEE International Conference on Communications, 1-6",
@@ -161,9 +147,9 @@ const educationInfo = {
       duration: "Jul 2019 - Apr 2023",
       desc: "Researching distributed machine learning for wireless network security",
       descBullets: [
-        "Analysing Software-Defined Radio readings",
-        "Designing new anomaly detection schemes",
-        "Implementing new methods for distributed machine learning"
+        "Analysed Software-Defined Radio readings",
+        "Designed new anomaly detection schemes",
+        "Implemented new methods for distributed machine learning"
       ]
     },
     {
@@ -209,7 +195,7 @@ const workExperiences = {
       company: "University of New South Wales",
       companylogo: require("./assets/images/unswLogo.png"),
       date: "Sep 2023 – Present",
-      desc: "Improving the HRI robotics research facility",
+      desc: "Building interfaces for a 200+ sensor robotic room",
       descBullets: [
         "TODO",
         "TODO"
@@ -221,7 +207,7 @@ const workExperiences = {
       company: "Industrial Sciences Group",
       companylogo: require("./assets/images/isgLogo.png"),
       date: "Mar 2023 – Sep 2023",
-      desc: "Fixed-term projects on space analytics",
+      desc: "Space ML for NASA",
       descBullets: [
         "TODO",
         "TODO"
@@ -233,10 +219,10 @@ const workExperiences = {
       company: "Melbourne Space Program",
       companylogo: require("./assets/images/mspLogo.png"),
       date: "Apr 2020 – Feb 2022",
-      desc: "Member of the AI and Robotics Team",
+      desc: "Self-driving Mars rovers (student club)",
       descBullets: [
-        "Worked on an autonomous rover joint-project with Monash Nova Rover",
-        "Led the development of modules for 2D mapping, localisation, and visualisation"
+        "Worked on Monash Nova Rover's autonomous software",
+        "Wrote tools for 2D mapping, localisation, and visualisation"
       ],
       color: [5, 21, 91]
     },
@@ -245,10 +231,10 @@ const workExperiences = {
       company: "University of Auckland",
       companylogo: require("./assets/images/uoaLogo.png"),
       date: "Nov 2018 – Feb 2019",
-      desc: "Member of the Precision Timed Research Group",
+      desc: "Time predictable ML on FPGAs",
       descBullets: [
-        "Wrote a tool to convert Keras neural networks (NNs) to C code",
-        "Analyzed worst-case execution time for NNs on an FPGA"
+        "Wrote a tool to convert TF neural networks to C code",
+        "Analyzed worst-case execution time on an FPGA"
       ],
       color: null
     },
@@ -257,9 +243,9 @@ const workExperiences = {
       company: "Verizon Connect",
       companylogo: require("./assets/images/vcLogo.png"),
       date: "Nov 2017 – Feb 2018",
-      desc: "A second internship with the Road Network Routing Team",
+      desc: "Debug tools for routing",
       descBullets: [
-        "Implemented a visualisation tool for routing algorithms",
+        "Implemented a tool to visualise routing algorithms",
         "Written in C++, Node.js, and Mapbox GL JS"
       ],
       color: [179, 59, 51]
@@ -269,9 +255,9 @@ const workExperiences = {
       company: "Verizon Connect",
       companylogo: require("./assets/images/vcLogo.png"),
       date: "Nov 2016 – Feb 2017",
-      desc: "An internship with the Road Network Routing Team",
+      desc: "GPS data feature extraction",
       descBullets: [
-        "Implemented a tool to estimate the widths of roads from GPS data",
+        "Implemented a tool to estimate road widths",
         "Written in python, C#, and CUDA C"
       ],
       color: [179, 59, 51]
@@ -292,7 +278,7 @@ const openSource = {
 // Achievement Section
 // Include certificates, talks etc
 const achievementSection = {
-  title: "Achievements and Awards 🏆",
+  title: "Achievements and awards 🏆",
   subtitle:
     "Me in the news!",
 
