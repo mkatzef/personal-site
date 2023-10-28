@@ -197,8 +197,8 @@ const workExperiences = {
       date: "Sep 2023 – Present",
       desc: "Building interfaces for a 200+ sensor robotic room",
       descBullets: [
-        "TODO",
-        "TODO"
+        "Upgrading UNSW's Human Robot Interaction facility",
+        "Creating new tools to acquire and process data"
       ],
       color: [251,230,77]
     },
@@ -209,8 +209,8 @@ const workExperiences = {
       date: "Mar 2023 – Sep 2023",
       desc: "Space ML for NASA",
       descBullets: [
-        "TODO",
-        "TODO"
+        "Helped write an ion thruster trajectory planner",
+        "Added features to space stats analysis toolkit"
       ],
       color: [196,196,196]
     },

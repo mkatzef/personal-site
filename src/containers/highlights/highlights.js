@@ -77,7 +77,11 @@ export default function Highlights() {
                 <div className="desc-div">
                   <h1 className="slide-title">Map data</h1>
                   <p className="slide-subtitle"><i>Planning, processing, visualizing, running :)</i></p>
-                  <p className="slide-body">Lorem ipsum</p>
+                  <p className="slide-body">Many of my projects and work roles have dealt with GPS telemetry data
+                  <br/>
+                  <br/>
+                  And sometimes the GPS satellites themselves.
+                  </p>
                 </div>
               </div>
             </Slide>
@@ -88,7 +92,12 @@ export default function Highlights() {
                 <div className="desc-div">
                   <h1 className="slide-title">Full stack</h1>
                   <p className="slide-subtitle"><i>Serverless, containers, VPCs, CI/CD</i></p>
-                  <p className="slide-body">I know all the acronyms! (And wrestled with them too)</p>
+                  <p className="slide-body">I know all the acronyms! (And wrestled with them too)
+                  <br/>
+                  <br/>
+                  A good idea is the easy part;
+                  </p>
+                  <div className="slide-body thatsTheJoke">have you ever tried to center a div?</div>
                 </div>
               </div>
             </Slide>
@@ -113,10 +122,12 @@ export default function Highlights() {
                 </div>
                 <div className="desc-div">
                   <h1 className="slide-title">Math</h1>
-                  <p className="slide-subtitle"><i>I can do it</i></p>
+                  <p className="slide-subtitle"><i>I can do it!</i></p>
                   <p className="slide-body">
-                    Advanced signal processing, linear algebra, stats, and my favourite, numerical optimisation.
-                    Some graphs I made on <a href="http://desmos.com">desmos.com</a>
+                    My work has required signal processing, linear algebra, stats, and my favourite, numerical optimisation.
+                    <br/>
+                    <br/>
+                    But math doesn't have to be a chore... see <a href="http://desmos.com">desmos.com</a>
                   </p>
                 </div>
               </div>
@@ -129,7 +140,11 @@ export default function Highlights() {
                   <h1 className="slide-title">Tinkering</h1>
                   <p className="slide-subtitle"><i>Little bit of form, whole lotta function</i></p>
                   <p className="slide-body">
-                    Candle holder lithophanes, Arduino TV remote, Android apps...
+                    FPGA games, 3D printing, Arduino TV remote controllers, Android apps, lithophanes (pictured)...
+                    <br/>
+                    <br/>
+                    I strive to learn about every [a-z]{"{4}"}ware.
+                    <br/>
                     <br/>
                     Most of my projects land on github - check them out!
                   </p>

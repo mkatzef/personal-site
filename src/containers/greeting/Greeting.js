@@ -44,8 +44,8 @@ export default function Greeting() {
             <table className="resume-button-table">
               <tr>
               <td colSpan="100%">
-                <video autoPlay loop className="rover-vid">
-                  <source src={require("../../assets/images/rover2.webm")} type="video/webm" />
+                <video autoPlay loop muted className="rover-vid">
+                  <source src={require("../../assets/images/rover3.webm")} type="video/webm" />
                 </video>
               </td>
               </tr>
