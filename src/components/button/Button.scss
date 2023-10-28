@@ -22,7 +22,7 @@
 
 .nonuseless-button {
   margin: 0 !important;
-  width: 120px;
+  width: 140px;
   font-size: 18px;
 }
 
@@ -41,6 +41,13 @@
   margin-right: 0 !important;
 }
 /* Media Query */
+@media (max-width: 960px) {
+  .nonuseless-button {
+    width: 120px;
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 768px) {
   .main-button {
     font-size: 0.938rem;
