@@ -146,7 +146,7 @@ export default function Highlights() {
                     I strive to learn about every [a-z]{"{4}"}ware.
                     <br/>
                     <br/>
-                    Most of my projects land on github - check them out!
+                    Most of my projects land on <a href="https://github.com/mkatzef">github</a> - check them out!
                   </p>
                 </div>
               </div>
