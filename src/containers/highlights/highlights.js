@@ -39,10 +39,8 @@ const Dot = styled.span`
   color: #FF9900;
   user-select: none;
 `;
-const Dots = styled.span`
+const Dots = styled.div`
   text-align: center;
-  width: 30px;
-  margin-left: 40%;
   z-index: 100;
 `;
 const CarouselUI = ({ position, total, handleClick, children }) => (
@@ -55,7 +53,7 @@ const CarouselUI = ({ position, total, handleClick, children }) => (
     <Dots>
       {Array(...Array(total)).map( (val, index) =>
         <Dot key={index} onClick={handleClick} data-position={index}>
-          {index === position ? '● ' : '○ ' }
+          {index === position ? '◆ ' : '◇ ' }
         </Dot>
       )}
     </Dots>
