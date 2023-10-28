@@ -7,7 +7,7 @@ export default function Research() {
   if (researchInfo.display) {
     return (
       <div className="research-section" id="research">
-        <h1 className="research-heading">Research selection</h1>
+        <h1 className="research-heading">Some of my research</h1>
         <div className="research-card-container">
           {researchInfo.publications.map((publication, index) => (
             (index < researchInfo.publications.length - 1) ?
