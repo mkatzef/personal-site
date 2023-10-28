@@ -141,7 +141,7 @@ export default function Highlights() {
                     FPGA games, 3D printing, Arduino TV remote controllers, Android apps, lithophanes (pictured)...
                     <br/>
                     <br/>
-                    I strive to learn about every [a-z]{"{4}"}ware.
+                    I strive to learn about every level of a computer's <pre>[a-z]{"{4}"}ware</pre>
                     <br/>
                     <br/>
                     Most of my projects land on <a href="https://github.com/mkatzef">github</a> - check them out!

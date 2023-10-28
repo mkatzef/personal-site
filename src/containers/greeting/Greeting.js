@@ -46,11 +46,12 @@ export default function Greeting() {
               <td colSpan="100%">
                 <video autoPlay loop muted className="rover-vid">
                   <source src="https://personal-site-large-fs.s3.ap-southeast-2.amazonaws.com/rover4.webm" type="video/webm" />
+                  <source src="https://personal-site-large-fs.s3.ap-southeast-2.amazonaws.com/rover-teeeny.mp4" type="video/mp4" />
                 </video>
               </td>
               </tr>
               <tr>
-              <td width="50%">
+              <td width="50%" align="right">
               <Button
                 text="Resume"
                 useful={true}
@@ -58,7 +59,7 @@ export default function Greeting() {
                 href="https://drive.google.com/file/d/115nNca-89V6cTslu52entyYnUjTHvjCF/view?usp=sharing"
               />
               </td>
-              <td width="50%" align="right">
+              <td width="50%" align="left">
               <Button
                 text="PhD Thesis"
                 useful={true}
