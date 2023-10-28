@@ -45,7 +45,7 @@ export default function Greeting() {
               <tr>
               <td colSpan="100%">
                 <video autoPlay loop muted className="rover-vid">
-                  <source src={require("../../assets/images/rover-perfect.mp4")} type="video/webm" />
+                  <source src="https://personal-site-large-fs.s3.ap-southeast-2.amazonaws.com/rover4.webm" type="video/webm" />
                 </video>
               </td>
               </tr>
