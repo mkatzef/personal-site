@@ -134,7 +134,7 @@ export default function Highlights() {
             </Slide>
             <Slide right>
               <div className="slide-div">
-                <img className="img1" src={require("../../assets/images/litho.jpeg")}/>
+                <img className="img1" src={require("../../assets/images/litho.jpg")}/>
                 <img className="img2" src={require("../../assets/images/litho-src.jpg")}/>
                 <div className="desc-div">
                   <h1 className="slide-title">Tinkering</h1>
