@@ -26,7 +26,7 @@ const Arrow = styled.div`
   position: absolute;
   top: 0;
   width: 50px;
-  font-size: 3em;
+  font-size: 2em;
   background: linear-gradient(to ${props => props.right ? 'left' : 'right'}, rgba(50,50,50,0.1), rgba(1,1,1,0));
   cursor: pointer;
   user-select: none;
