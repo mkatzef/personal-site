@@ -85,7 +85,7 @@ export default function Highlights() {
             </Slide>
             <Slide right>
               <div className="slide-div">
-                <img className="img1" src={require("../../assets/images/world-vote.png")}/>
+                <a href="/myworld-vote"><img className="img1" src={require("../../assets/images/world-vote.png")}/></a>
                 <img className="img2" src={require("../../assets/images/astro.png")}/>
                 <div className="desc-div">
                   <h1 className="slide-title">Full stack</h1>
@@ -93,9 +93,10 @@ export default function Highlights() {
                   <p className="slide-body">I know all the acronyms! (And wrestled with them too)
                   <br/>
                   <br/>
-                  A good idea is the easy part;
+                  Coming up with a great idea is the easy part;
                   </p>
                   <div className="slide-body thatsTheJoke">have you ever tried to center a div?</div>
+                  Check out my <a href="/myworld-vote">live voting webapp!</a>
                 </div>
               </div>
             </Slide>
