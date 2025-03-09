@@ -86,10 +86,6 @@ const skillsSection = {
       fontClassname: "devicon-git-plain"
     },
     {
-      skillName: "React",
-      fontClassname: "devicon-react-plain"
-    },
-    {
       skillName: "OpenCV",
       fontClassname: "devicon-opencv-plain"
     },
@@ -242,23 +238,11 @@ const workExperiences = {
       role: "Intern Software Developer",
       company: "Verizon Connect",
       companylogo: require("./assets/images/vcLogo.png"),
-      date: "Nov 2017 – Feb 2018",
-      desc: "Debug tools for routing",
+      date: "Summer 2016/2017 & 2017/2018",
+      desc: "Debug tools for routing | GPS data processing",
       descBullets: [
         "Implemented a tool to visualise routing algorithms",
         "Written in C++, Node.js, and Mapbox GL JS"
-      ],
-      color: [179, 59, 51]
-    },
-    {
-      role: "Intern Software Developer",
-      company: "Verizon Connect",
-      companylogo: require("./assets/images/vcLogo.png"),
-      date: "Nov 2016 – Feb 2017",
-      desc: "GPS data feature extraction",
-      descBullets: [
-        "Implemented a tool to estimate road widths",
-        "Written in python, C#, and CUDA C"
       ],
       color: [179, 59, 51]
     }
@@ -286,24 +270,12 @@ const achievementSection = {
     {
       title: "Orbital Transports Contest Winner",
       subtitle:
-        "Winning project proposal for the SmallSat Idea-to-Space Launch Contest - launching a cube satellite early 2023!",
+        "Winning project proposal for the SmallSat Idea-to-Space Launch Contest",
       image: require("./assets/images/otLogo.png"),
       footerLink: [
         {
           name: "Press Release",
           url: "https://www.prnewswire.com/news-releases/the-smallsat-idea-to-space-launch-contest-presented-by-entrepreneur-peter-wokwicz-and-orbital-transports-after-receiving-an-overwhelming-number-of-entries-has-selected-the-winner-301479809.html"
-        }
-      ]
-    },
-    {
-      title: "UC Computer Engineering Spokesperson",
-      subtitle:
-        "Selected for a write-up advertising Computer Engineering to propspective students.",
-      image: require("./assets/images/ucLogoBW.png"),
-      footerLink: [
-        {
-          name: "Profile",
-          url: "https://www.canterbury.ac.nz/get-started/why-uc/student-profiles/all-profiles/marc-katzef.html"
         }
       ]
     }
