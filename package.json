@@ -1,8 +1,8 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "developerfolio",
-  "version": "0.1.0",
-  "private": true,
+  "homepage": "/",
+  "name": "personal-site",
+  "version": "1.0",
+  "private": false,
   "dependencies": {
     "@babel/core": "7.9.0",
     "@svgr/webpack": "4.3.3",
@@ -31,7 +31,6 @@
     "eslint-plugin-react-hooks": "^1.6.1",
     "file-loader": "4.3.0",
     "fs-extra": "^8.1.0",
-    "gh-pages": "^2.1.1",
     "html-webpack-plugin": "4.0.0-beta.11",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.9.0",
@@ -77,8 +76,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "start": "node fetch.js && node scripts/start.js",
-    "build": "node fetch.js && node scripts/build.js",
-    "deploy": "gh-pages -b master -d build",
+    "build": "node --openssl-legacy-provider fetch.js && node --openssl-legacy-provider scripts/build.js",
+    "deploy": "gh-pages -d build",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
     "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
   },
@@ -104,6 +103,7 @@
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
+    "gh-pages": "^6.3.0",
     "prettier": "^2.3.1"
   },
   "jest": {
